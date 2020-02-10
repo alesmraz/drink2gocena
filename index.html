@@ -1,0 +1,52 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Výherní plechovka drink2go</title>
+    <link href="/catalog/view/theme/originalwines/stylesheet/bootstrap-opencart-v4.1.1.min.css" rel="stylesheet">
+    <link href="./assets/style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Barrio&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+    <img class="logo" src="./assets/img/logo.svg" alt="Drink2Go">
+    <img src="./assets/img/header-m.png" alt="" class="bg"
+         srcset="./assets/img/header-m.png 480w, ./assets/img/header-d.png 800w"
+         sizes="(max-width: 720px) 480px, 800px">
+</header>
+<main>
+    <form method="POST" class="drinkform">
+        <div class="alert alert-danger">Zadali jste špatný kód, zkuste to prosím znovu</div>
+        <h2 class="title title--bg">Vložte kód z plechovky</h2>
+        <div class="inputWrap">
+            <input type="text" name="pid"> <br>
+        </div>
+        <button type="submit" value="odeslat" class="btn btn-primary">Pokračovat</button>
+    </form>
+</main>
+
+<footer>
+    <!-- IF error in form -->
+    <div class="chance">
+        <h2 class="text-center">Tady něco nehraje</h2>
+        <img src="./assets/img/sad.png" alt="" width="150" class="img-center">
+    </div>
+
+
+    <!-- ELSE -->
+    <img src="./assets/img/setri-d.png" alt="" class="chance"
+         srcset="./assets/img/setri-m.png 480w, ./assets/img/setri-d.png 800w"
+         sizes="(max-width: 720px) 480px, 800px">
+    <!-- /IF -->
+</footer>
+
+
+
+</body>
+</html>
