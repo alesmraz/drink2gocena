@@ -115,7 +115,7 @@ h1.text {
 
 .drinkform input:not([type="checkbox"]) {
     width: 100%;
-    height: 100%;
+    height: 40px;
     padding: 13px;
     border: none;
     border-radius: 3rem;
@@ -161,7 +161,7 @@ h1.text {
 .drinkform .inputWrap {
     display: block;
     width: 100%;
-    height: 100%;
+    height: 40px;
     background: linear-gradient(90deg, rgba(191,40,47,1) 0%, rgba(157,31,93,1) 100%);
     position: relative;
     top: -90px;
@@ -222,6 +222,10 @@ h1.text {
 
 .ipr-3 .wrap:last-of-type {
     flex: 4 0 0;
+}
+
+.p-3 {
+    padding: 1rem;
 }
 
 .label {
@@ -354,5 +358,9 @@ h1.text {
 
     h1.text {
         font-size: 2rem;
+    }
+
+    .p-3 {
+        padding: 0.25rem;
     }
 }
