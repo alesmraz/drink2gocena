@@ -182,15 +182,14 @@ h1.text {
 .alert {
     padding: 10px;
     font-size: 1.5em;
-    background: #fafafa;
+    background: transparent;
     border-radius: 3rem;
     position: relative;
     bottom: -20px;
 }
 
 .alert-danger {
-    background-color: #b71c3c;
-    color: #fff;
+    color: #b71c3c;
 }
 
 .group .inputWrap,
@@ -232,8 +231,14 @@ h1.text {
     font-size: 1.6rem;
     margin-bottom: 0.5rem;
     display: block;
+    font-family: 'Barlow';
+    font-weight: 800;
 }
 
+.ff-barlow,
+.ff-barlow > *{
+    font-family: 'Barlow';
+}
 
 .custom-checkbox {
     display: block;
