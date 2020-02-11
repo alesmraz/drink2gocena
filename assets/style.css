@@ -78,6 +78,10 @@ main form {
     margin: 0 auto;
 }
 
+input {
+    font-family: 'Barlow';
+}
+
 .text:not(h1), .text:not(h1) * {
     font-family: 'Barlow';
     font-size: 1.5rem;
@@ -120,6 +124,7 @@ h1.text {
     border: none;
     border-radius: 3rem;
     font-size: 1.6rem;
+    font-family: 'Barlow';
 }
 
 .drinkform .btn {
@@ -308,6 +313,15 @@ h1.text {
 }
 
 @media (max-width: 720px) {
+
+    main {
+        height: 50vh;
+    }
+
+    footer {
+        height: 25vh;
+    }
+
     header .logo {
         max-height: 10vh;
     }
@@ -326,8 +340,8 @@ h1.text {
     }
 
     .drinkform .btn {
-        font-size: 1.7rem;
-        padding: 15px 57px;
+        font-size: 1.5rem;
+        padding: 12px 57px;
         top: -20px;
     }
 
