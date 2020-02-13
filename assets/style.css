@@ -316,6 +316,7 @@ h1.text {
 
     main {
         height: 50vh;
+        max-height: 300px;
     }
 
     footer {
